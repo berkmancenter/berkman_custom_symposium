@@ -1,0 +1,123 @@
+/*
+Theme Name:     Custom theme for hyperpublic
+Theme URI:      http: //example.com/
+Description:    A custom theme for the hyperpublic conference.
+Author:         Joey Mornin
+Author URI:     http: //example.com/about/
+Template:       twentyten
+Version:        0.1.0
+*/
+
+@import url("../twentyten/style.css");
+
+#site-title a {
+    color: #009900;
+}
+
+body {
+    background-color: #5fa1d0;
+    border-top: 5px solid #ffcc00;
+}
+
+div#wrapper {
+    background: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+    /* Header */
+
+    div#wrapper div#header { padding: 0; }
+
+        div#wrapper div#header div#masthead {}
+
+            /* Site title and subtitle */
+            
+            div#wrapper div#header div#masthead div#branding {}
+
+                div#wrapper div#header div#masthead div#branding h1#site-title, 
+                div#wrapper div#header div#masthead div#branding div#site-title{
+                    background: url('images/header-logo.png');
+                    height: 210px;
+                    width: 369px;
+                }
+
+                    div#wrapper div#header div#masthead div#branding h1#site-title a,
+                    div#wrapper div#header div#masthead div#branding div#site-title a {
+                        display: none;
+                    }
+
+            div#wrapper div#header div#masthead div#branding div#site-description {
+                /* TODO: Edit theme HTML to allow for a multi-line site description */
+            }
+
+            div#wrapper div#header div#masthead div#branding img {
+                display: none;
+                /* TODO: It might be more elegant just to remove the img tag from the HTML */
+            }
+
+            /* Navigation */
+
+            div#wrapper div#header div#masthead div#access { background: none; }
+
+                div#wrapper div#header div#masthead div#access div.menu { margin: 0; }
+
+                    div#wrapper div#header div#masthead div#access div.menu ul {}
+
+                        div#wrapper div#header div#masthead div#access div.menu ul li {
+                            margin-right: 1px;
+                        }
+
+                            div#wrapper div#header div#masthead div#access div.menu ul li a,
+                            div#wrapper div#header div#masthead div#access div.menu ul li a:visited {
+                                background-color: #e3e3e3;
+                                border-bottom: none;
+                                border-top: 5px solid #efefef;
+                                margin-right: 1px;
+                                color: #555;
+                                display: block;
+                                font-family: "Arial Black", Arial, sans-serif;
+                                font-size: 13px;
+                                float: left;
+                                line-height: 15px;
+                                margin: 0; 
+                                padding: 15px 25px;
+                                text-decoration: none;
+                                text-transform: uppercase;
+                            }
+
+                            div#wrapper div#header div#masthead div#access div.menu ul li a:active {
+                                margin-top: 3px;
+                                padding: 15px 25px 12px 25px;
+                            }
+
+                            div#wrapper div#header div#masthead div#access div.menu ul li a:hover {
+                                background-color: #555;
+                                color: #fff;
+                            }
+
+                        div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item {
+                            background-color: #ff0;
+                        }
+
+                            div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item a,
+                            div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item a:active {
+                                background-color: #fff;
+                                border-top: 5px solid #fc0;
+                                color: #5fa1d0;
+                                margin-top: 0;
+                                padding: 15px 25px;
+                            }
+
+    /* Main */
+
+    div#wrapper div#main {
+        background-color: #fff;
+        border: none;
+    }
+
+    /* Footer */
+
+    div#wrapper div#main {
+        border: none;
+    }
