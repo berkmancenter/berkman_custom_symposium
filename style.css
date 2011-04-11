@@ -1,132 +1,252 @@
 /*
-Theme Name:     Custom theme for hyperpublic
-Theme URI:      http: //www.hyperpublic.org/
+   Theme Name:     Custom theme for hyperpublic
+   Theme URI:      http: //www.hyperpublic.org/
 Description:    A custom theme for the hyperpublic conference.
 Author:         Joey Mornin
 Author URI:     http: //www.morninj.com/
 Template:       twentyten
 Version:        0.1.0
-*/
+ */
 
 @import url("../twentyten/style.css");
 
 #site-title a {
-    color: #009900;
+color: #009900;
 }
 
 body {
-    background-color: #5fa1d0;
-    border-top: 5px solid #ffcc00;
-    color: #333;
-    font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+	background-color: #5fa1d0;
+	border-top: 5px solid #ffcc00;
+	color: #333;
+	font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+}
+
+#content a, #content a:visited, #content a:active{
+	border-bottom: 1px dotted;
+	color: red;
+	text-decoration: none;
+}
+
+#primary a, #primary a:visited, #primary a:active{
+	color: #333;
+}
+
+#content a:hover{
+	color: white;
+	background-color: red;
+	border-bottom: none;
+}
+
+#content .entry-title{
+	background: #777;
+	border-right: 5px solid #fc0;
+	color: white;
+	float: left;
+	padding: 10px 10px 10px 30px;
+	margin-left: -20px;
+	clear: both;
+}
+
+#content .entry-title a{
+	color: white;
+	border-bottom: none;
+}
+
+#content .entry-title a:hover{
+	color: white;
+	background-color: transparent;
+
 }
 
 div#wrapper {
-    background: none;
-    margin: 0 auto;
-    padding: 0;
+	background: none;
+	margin: 0 auto;
+	padding: 0;
 }
 
-    /* Header */
+#primary, #secondary{
+	width: 238px;
+}
 
-    div#wrapper div#header { padding: 0; }
 
-        div#wrapper div#header div#masthead {}
+/* Header */
 
-            /* Site title and subtitle */
-            
-            div#wrapper div#header div#masthead div#branding {}
+div#wrapper div#header { padding: 0; }
 
-                div#wrapper div#header div#masthead div#branding h1#site-title, 
-                div#wrapper div#header div#masthead div#branding div#site-title{
-                    background: url('images/header-logo.png');
-                    height: 210px;
-                    width: 369px;
-                }
+div#wrapper div#header div#masthead {}
 
-                    div#wrapper div#header div#masthead div#branding h1#site-title a,
-                    div#wrapper div#header div#masthead div#branding div#site-title a {
-                        display: none;
-                    }
+/* Site title and subtitle */
 
-            div#wrapper div#header div#masthead div#branding div#site-description {
-                /* TODO: Edit theme HTML to allow for a multi-line site description */
-            }
+div#wrapper div#header div#masthead div#branding {}
 
-            div#wrapper div#header div#masthead div#branding img {
-                display: none;
-                /* TODO: It might be more elegant just to remove the img tag from the HTML */
-            }
+div#wrapper div#header div#masthead div#branding h1#site-title, 
+	div#wrapper div#header div#masthead div#branding div#site-title{
+	background: url('images/header-logo.png');
+	height: 210px;
+	width: 369px;
+}
 
-            /* Navigation */
+#site-description{
+	float: right;
+	font-family: "Arial Black", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 35px;
+	margin-top: 42px;
+	width: 560px;
+	text-transform: uppercase;
+	font-style: normal;
+}
 
-            div#wrapper div#header div#masthead div#access { background: none; }
+#site-description span{
+	background-color: #fff;
+	border-right: 5px solid #ccc;
+	color: #5fa1d0;
+	padding: 3px 12px 3px 12px;
+}
 
-                div#wrapper div#header div#masthead div#access div.menu { margin: 0; }
+#site-title{
+margin-left: -30px;
+}
 
-                    div#wrapper div#header div#masthead div#access div.menu ul {}
+#site-generator{
+	display: none;
+}
 
-                        div#wrapper div#header div#masthead div#access div.menu ul li {
-                            margin-right: 1px;
-                        }
+/* sidebar */
 
-                            div#wrapper div#header div#masthead div#access div.menu ul li a,
-                            div#wrapper div#header div#masthead div#access div.menu ul li a:visited {
-                                background-color: #e3e3e3;
-                                border-bottom: none;
-                                border-top: 5px solid #efefef;
-                                margin-right: 1px;
-                                color: #555;
-                                display: block;
-                                font-size: 16px;
-                                float: left;
-                                font-weight: bold;
-                                line-height: 15px;
-                                margin: 0; 
-                                padding: 15px 25px;
-                                text-decoration: none;
-                                text-transform: uppercase;
-                            }
+.widget-container{
+	background-color: #efefef;
+	border-top: 5px solid #ccc;
+	padding: 15px;
+}
 
-                            div#wrapper div#header div#masthead div#access div.menu ul li a:active {
-                                margin-top: 3px;
-                                padding: 15px 25px 12px 25px;
-                            }
+.widget-title{
+	margin-bottom: 10px;
+}
 
-                            div#wrapper div#header div#masthead div#access div.menu ul li a:hover {
-                                background-color: #555;
-                                color: #fff;
-                            }
 
-                        div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item {
-                            background-color: #ff0;
-                        }
+div#wrapper div#header div#masthead div#branding h1#site-title a,
+		div#wrapper div#header div#masthead div#branding div#site-title a {
+display: none;
+		}
 
-                            div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item a,
-                            div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item a:active {
-                                background-color: #fff;
-                                border-top: 5px solid #fc0;
-                                color: #5fa1d0;
-                                margin-top: 0;
-                                padding: 15px 25px;
-                            }
+div#wrapper div#header div#masthead div#branding div#site-description {
+		/* TODO: Edit theme HTML to allow for a multi-line site description */
+}
 
-    /* Main */
+div#wrapper div#header div#masthead div#branding img {
+display: none;
+		 /* TODO: It might be more elegant just to remove the img tag from the HTML */
+}
 
-    div#wrapper div#main {
-        background-color: #fff;
-        border: none;
-    }
-            
-        div#wrapper div#main div#content {
-            font-family: 'Helvetica Neue', helvetica, arial, sans-serif !important;
-        }
+/* Navigation */
 
-            div.entry-content p {
-            }
+div#wrapper div#header div#masthead div#access { background: none; }
 
-    /* Footer */
+div#wrapper div#header div#masthead div#access div.menu { margin: 0; }
 
-    div#wrapper div#main {
-        border: none;
-    }
+div#wrapper div#header div#masthead div#access div.menu ul {}
+
+div#wrapper div#header div#masthead div#access div.menu ul li {
+		margin-right: 1px;
+}
+
+div#wrapper div#header div#masthead div#access div.menu ul li a,
+div#wrapper div#header div#masthead div#access div.menu ul li a:visited {
+	background-color: #e3e3e3;
+	border-bottom: none;
+	border-top: 5px solid #efefef;
+	margin-right: 1px;
+	color: #555;
+	display: block;
+	font-size: 17px;
+	float: left;
+	font-weight: bold;
+	line-height: 15px;
+	margin: 0; 
+	padding: 15px 17px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+div#wrapper div#header div#masthead div#access div.menu ul li a:active {
+	margin-top: 3px;
+	padding: 15px 17px 12px 17px;
+}
+
+div#wrapper div#header div#masthead div#access div.menu ul li a:hover {
+		background-color: #555;
+color: #fff;
+}
+
+div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item {
+		background-color: #ff0;
+}
+
+div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item a,
+		div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item a:active {
+				background-color: #fff;
+				border-top: 5px solid #fc0;
+color: #5fa1d0;
+	   margin-top: 0;
+padding: 15px 25px;
+		}
+
+/* Main */
+
+div#wrapper div#main {
+		background-color: #fff;
+border: none;
+}
+
+div#wrapper div#main div#content {
+		font-family: 'Helvetica Neue', helvetica, arial, sans-serif !important;
+}
+
+div.entry-content p {
+}
+
+/* Footer */
+
+div#wrapper div#main {
+border: none;
+}
+
+#colophon {
+	border-top: 4px solid #fc0;
+	padding-top: 25px;
+}
+
+#colophon ul{
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#colophon li{
+	float: left;
+	margin-right: 20px;
+}
+
+#colophon li a{
+	font-family: "Arial Black", arial, sans-serif;
+	border-right: 5px solid #ccc;
+	padding: 7px;
+	background: #efefef;
+	color: #555;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#colophon li.current_page_item a{
+	border-right-color: #fc0;
+}
+
+#colophon li a:hover{
+	background-color: white;
+}
+
+#berkman-footer-links{
+display: none;
+}
