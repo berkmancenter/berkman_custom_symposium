@@ -143,16 +143,16 @@ display: none;
 
 div#wrapper div#header div#masthead div#access { background: none; }
 
-div#wrapper div#header div#masthead div#access div.menu { margin: 0; }
+div#wrapper div#header div#masthead div#access div.menu-header { margin: 0; }
 
-div#wrapper div#header div#masthead div#access div.menu ul {}
+div#wrapper div#header div#masthead div#access div.menu-header ul {}
 
-div#wrapper div#header div#masthead div#access div.menu ul li {
+div#wrapper div#header div#masthead div#access div.menu-header ul li {
 		margin-right: 1px;
 }
 
-div#wrapper div#header div#masthead div#access div.menu ul li a,
-div#wrapper div#header div#masthead div#access div.menu ul li a:visited {
+div#wrapper div#header div#masthead div#access div.menu-header ul li a,
+div#wrapper div#header div#masthead div#access div.menu-header ul li a:visited {
 	background-color: #e3e3e3;
 	border-bottom: none;
 	border-top: 5px solid #efefef;
@@ -169,22 +169,22 @@ div#wrapper div#header div#masthead div#access div.menu ul li a:visited {
 	text-transform: uppercase;
 }
 
-div#wrapper div#header div#masthead div#access div.menu ul li a:active {
+div#wrapper div#header div#masthead div#access div.menu-header ul li a:active {
 	margin-top: 3px;
 	padding: 15px 17px 12px 17px;
 }
 
-div#wrapper div#header div#masthead div#access div.menu ul li a:hover {
+div#wrapper div#header div#masthead div#access div.menu-header ul li a:hover {
 		background-color: #555;
 color: #fff;
 }
 
-div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item {
+div#wrapper div#header div#masthead div#access div.menu-header ul li.current_page_item {
 		background-color: #ff0;
 }
 
-div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item a,
-		div#wrapper div#header div#masthead div#access div.menu ul li.current_page_item a:active {
+div#wrapper div#header div#masthead div#access div.menu-header ul li.current_page_item a,
+		div#wrapper div#header div#masthead div#access div.menu-header ul li.current_page_item a:active {
 				background-color: #fff;
 				border-top: 5px solid #fc0;
 color: #5fa1d0;
@@ -247,6 +247,10 @@ border: none;
 	background-color: white;
 }
 
+#colophon ul ul{
+	display: none;
+}
+
 #berkman-footer-links{
-display: none;
+	display: none;
 }
