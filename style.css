@@ -104,8 +104,17 @@ div#wrapper div#header div#masthead div#branding h1#site-title,
 	padding: 3px 12px 3px 12px;
 }
 
+#site-description a{
+	color: #5fa1d0;
+	text-decoration: none;
+}
+
+#site-description a:hover{
+	text-decoration: underline;
+}
+
 #site-title{
-margin-left: -30px;
+	margin-left: -30px;
 }
 
 #site-generator{
