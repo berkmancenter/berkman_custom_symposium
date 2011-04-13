@@ -143,9 +143,20 @@ div#wrapper div#header div#masthead div#branding div#site-description {
 		/* TODO: Edit theme HTML to allow for a multi-line site description */
 }
 
-div#wrapper div#header div#masthead div#branding img {
-display: none;
-		 /* TODO: It might be more elegant just to remove the img tag from the HTML */
+div#branding img {
+	display: none;
+	 /* TODO: It might be more elegant just to remove the img tag from the HTML */
+}
+
+div#site-description img{
+	display: inline;
+	float: right;
+	border: none;
+	opacity: 0.5;
+}
+
+div#site-description a:hover img{
+	opacity: 1;
 }
 
 /* Navigation */
