@@ -133,6 +133,24 @@ div#wrapper div#header div#masthead div#branding h1#site-title,
 	margin-bottom: 10px;
 }
 
+    a#sidebar-registration-button,
+    a#sidebar-registration-button:visited,
+    a#sidebar-registration-button:active {
+        background-color: #5fa1d0;
+        border-left: 5px solid #fc0;
+        color: #fff;
+        font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 5px 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    a#sidebar-registration-button:hover {
+        background-color: #333;
+    }
+
 
 div#wrapper div#header div#masthead div#branding h1#site-title a,
 		div#wrapper div#header div#masthead div#branding div#site-title a {
