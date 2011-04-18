@@ -21,6 +21,10 @@ body {
 	font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
 }
 
+.category-blog #content h1.page-title{
+	display: none;
+}
+
 #content a, #content a:visited, #content a:active{
 	border-bottom: 1px dotted;
 	color: red;

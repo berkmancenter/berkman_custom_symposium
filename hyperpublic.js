@@ -7,7 +7,7 @@ jQuery(document).ready(function(){
 	jQuery('#site-title').bind({
 		click: function(){
 			//TODO: fix this when we start working under the "real" domain.
-			window.location.href = '/hyperpublic';
+			window.location.href = 'http://www.hyperpublic.org/';
 		},
 		mouseover: function(){
 			jQuery(this).css({cursor: 'pointer'});
