@@ -19,6 +19,7 @@ body {
 	border-top: 5px solid #ffcc00;
 	color: #333;
 	font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+        font-size: 13px;
 }
 
 .category-blog #content h1.page-title{
@@ -48,6 +49,7 @@ body {
 	float: left;
 	padding: 10px 10px 10px 30px;
 	margin-left: -20px;
+        margin-bottom: 20px;
 	clear: both;
 }
 
@@ -231,6 +233,13 @@ div#wrapper div#main div#content {
 }
 
 div.entry-content p {
+    font-size: 14px;
+    line-height: 140%;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* Footer */
@@ -281,3 +290,50 @@ border: none;
 #berkman-footer-links{
 	display: none;
 }
+
+/* Participants page */
+
+div#participants {}
+
+    div#participants h3 {
+        margin-top: 30px;
+    }
+
+    div#participants ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        div#participants ul li {
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        div#participants ul li:nth-child(odd) { background-color: #efefef; }
+
+            div#participants ul li a,
+            div#participants ul li a:visited,
+            div#participants ul li a:active,
+            div#participants ul li a:hover {
+                background: none;
+                border: none !important;
+                display: block;
+                float: left;
+                margin: 0 20px 0 0;
+                padding: 0;
+                width: 200px;
+            }
+
+            div#participants ul li h4 {
+                display: inline;
+                font-size: 15px;
+                font-weight: bold;
+                margin: 0;
+            }
+
+            div#participants ul li p {
+                font-size: 13px;
+                margin-top: 10px;
+                margin-bottom: 0;
+            }
