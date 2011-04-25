@@ -291,6 +291,44 @@ border: none;
 	display: none;
 }
 
+/* Agenda page */
+
+div#agenda {}
+
+    div#agenda ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        div#agenda ul li {
+            padding: 20px;
+        }
+
+        div#agenda ul li:nth-child(odd) {
+            background-color: #efefef;
+        }
+
+            div#agenda ul li p {
+                font-size: 13px;
+                margin-top: 10px;
+                margin-bottom: 0;
+            }
+
+            div#agenda ul li ul {
+                list-style-type: disc;
+                margin-left: 20px;
+                margin-top: 20px;
+                padding: 0;
+            }
+
+                div#agenda ul li ul li {
+                    background: none !important;
+                    font-size: 13px;
+                    margin: 0;
+                    padding: 0;
+                }
+
 /* Participants page */
 
 div#participants {}
