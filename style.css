@@ -293,36 +293,36 @@ border: none;
 
 /* Agenda page */
 
-div#agenda {}
+body.page-id-7 {}
 
-    div#agenda ul {
+    body.page-id-7 ul.agenda-items {
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
 
-        div#agenda ul li {
+        body.page-id-7 ul.agenda-items li {
             padding: 20px;
         }
 
-        div#agenda ul li:nth-child(odd) {
+        body.page-id-7 ul.agenda-items li:nth-child(odd) {
             background-color: #efefef;
         }
 
-            div#agenda ul li p {
+            body.page-id-7 ul.agenda-items li p {
                 font-size: 13px;
                 margin-top: 10px;
                 margin-bottom: 0;
             }
 
-            div#agenda ul li ul {
+            body.page-id-7 ul.agenda-items li ul {
                 list-style-type: disc;
                 margin-left: 20px;
                 margin-top: 20px;
                 padding: 0;
             }
 
-                div#agenda ul li ul li {
+                body.page-id-7 ul.agenda-items li ul li {
                     background: none !important;
                     font-size: 13px;
                     margin: 0;
@@ -331,29 +331,29 @@ div#agenda {}
 
 /* Participants page */
 
-div#participants {}
+body.page-id-11 {}
 
-    div#participants h3 {
+    body.page-id-11 h3 {
         margin-top: 30px;
     }
 
-    div#participants ul {
+    body.page-id-11 ul.participants-items {
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
 
-        div#participants ul li {
+        body.page-id-11 ul.participants-items li {
             padding: 20px;
             overflow: hidden;
         }
 
-        div#participants ul li:nth-child(odd) { background-color: #efefef; }
+        body.page-id-11 ul.participants-items li:nth-child(odd) { background-color: #efefef; }
 
-            div#participants ul li a,
-            div#participants ul li a:visited,
-            div#participants ul li a:active,
-            div#participants ul li a:hover {
+            body.page-id-11 ul.participants-items li a,
+            body.page-id-11 ul.participants-items li a:visited,
+            body.page-id-11 ul.participants-items li a:active,
+            body.page-id-11 ul.participants-items li a:hover {
                 background: none;
                 border: none !important;
                 display: block;
@@ -363,14 +363,14 @@ div#participants {}
                 width: 200px;
             }
 
-            div#participants ul li h4 {
+            body.page-id-11 ul.participants-items li h4 {
                 display: inline;
                 font-size: 15px;
                 font-weight: bold;
                 margin: 0;
             }
 
-            div#participants ul li p {
+            body.page-id-11 ul.participants-items li p {
                 font-size: 13px;
                 margin-top: 10px;
                 margin-bottom: 0;
