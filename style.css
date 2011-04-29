@@ -375,3 +375,12 @@ body.page-id-11 {}
                 margin-top: 10px;
                 margin-bottom: 0;
             }
+
+body.home .entry-meta, body.home .cat-links{
+	display: none;
+}
+
+body.home .entry-utility .meta-sep{
+	display: none;
+}
+
