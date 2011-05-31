@@ -83,13 +83,13 @@ div#wrapper div#header div#masthead {}
 
 /* Site title and subtitle */
 
-div#wrapper div#header div#masthead div#branding {}
+div#wrapper div#header div#masthead div#branding { margin-top: 20px; }
 
 div#wrapper div#header div#masthead div#branding h1#site-title, 
 	div#wrapper div#header div#masthead div#branding div#site-title{
-	background: url('images/header-logo.png');
+	background: url('images/header-logo-2.png');
 	height: 210px;
-	width: 369px;
+	width: 257px;
 }
 
 #site-description{
@@ -98,7 +98,7 @@ div#wrapper div#header div#masthead div#branding h1#site-title,
 	font-size: 16px;
 	line-height: 35px;
 	margin-top: 42px;
-	width: 560px;
+	width: 660px;
 	text-transform: uppercase;
 	font-style: normal;
 }
