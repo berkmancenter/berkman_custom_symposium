@@ -61,7 +61,32 @@ body {
 #content .entry-title a:hover{
 	color: white;
 	background-color: transparent;
+}
 
+body.home #main ul.slideshow{
+	height: 225px;
+	margin: 0px;
+	padding: 0px;
+}
+
+body.home .slideshow h4 {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+body.home .slideshow img{
+	height: 190px;
+	width: 190px;
+}
+
+body.home .slideshow p {
+	display: none;
+}
+
+body.home .slideshow li{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 div#wrapper {
