@@ -388,6 +388,11 @@ body.page-id-11 {}
                 width: 200px;
             }
 
+                body.page-id-11 ul.participants-item li p a {
+                    margin: none !important;
+                    width: auto !important;
+                }
+
             body.page-id-11 ul.participants-items li h4 {
                 display: inline;
                 font-size: 15px;
