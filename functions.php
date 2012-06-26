@@ -1,7 +1,6 @@
 <?php 
-wp_enqueue_script('jquery', 'jquery');
-wp_enqueue_script('jquerycycle', get_bloginfo('stylesheet_directory') . '/jquery.cycle.all.min.js');
-wp_enqueue_script('hyperpublic.js', get_bloginfo('stylesheet_directory') . '/hyperpublic.js');
+wp_enqueue_script('jquerycycle', get_bloginfo('stylesheet_directory') . '/jquery.cycle.all.min.js', array('jquery'));
+wp_enqueue_script('hyperpublic.js', get_bloginfo('stylesheet_directory') . '/hyperpublic.js', array('jquery'));
 
 function hyperpublic_twitter_shortcode( $atts ) {
 		return "<script src='http://widgets.twimg.com/j/2/widget.js'></script> 
